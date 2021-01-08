@@ -1,0 +1,23 @@
+C. Ping-pong
+Link: https://codeforces.com/problemset/problem/1455/C
+Alice and Bob play ping-pong with simplified rules.
+
+During the game, the player serving the ball commences a play. The server strikes the ball then the receiver makes a return by hitting the ball back. Thereafter, the server and receiver must alternately make a return until one of them doesn't make a return.
+
+The one who doesn't make a return loses this play. The winner of the play commences the next play. Alice starts the first play.
+
+Alice has x stamina and Bob has y. To hit the ball (while serving or returning) each player spends 1 stamina, so if they don't have any stamina, they can't return the ball (and lose the play) or can't serve the ball (in this case, the other player serves the ball instead). If both players run out of stamina, the game is over.
+
+Sometimes, it's strategically optimal not to return the ball, lose the current play, but save the stamina. On the contrary, when the server commences a play, they have to hit the ball, if they have some stamina left.
+
+Both Alice and Bob play optimally and want to, firstly, maximize their number of wins and, secondly, minimize the number of wins of their opponent.
+
+Calculate the resulting number of Alice's and Bob's wins.
+
+Input
+The first line contains a single integer t (1≤t≤104) — the number of test cases.
+
+The first and only line of each test case contains two integers x and y (1≤x,y≤106) — Alice's and Bob's initial stamina.
+
+Output
+For each test case, print two integers — the resulting number of Alice's and Bob's wins, if both of them play optimally.
